@@ -7,7 +7,7 @@ npm install universal-memoize --save
 ```
 
 # Usage
-```
+```javascript
 import memoize from 'universal-memoize'
 
 // sync
