@@ -1,10 +1,11 @@
 {
   "name": "universal-memoize",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A library of universal memoization for sync/async function.",
-  "main": "index.js",
+  "main": "./src/memoize.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": ""
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,12 @@
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
     "babel-preset-env": "^1.5.1",
-    "babel-polyfill": "^6.23.0"
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1"
   }
 }
