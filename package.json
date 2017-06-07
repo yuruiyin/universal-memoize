@@ -1,6 +1,6 @@
 {
   "name": "universal-memoize",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A library of universal memoization for sync/async function.",
   "main": "./src/memoize.js",
   "scripts": {
@@ -30,5 +30,8 @@
   },
   "dependencies": {
     "babel-cli": "^6.24.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
