@@ -2,13 +2,25 @@
   "name": "universal-memoize",
   "version": "1.0.0",
   "description": "A library of universal memoization for sync/async function.",
-  "main": "memoize.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuruiyin/universal-memoize.git"
+  },
   "keywords": [
-    "memoize"
+    "memoize",
+    "cache",
+    "async"
   ],
   "author": "yuruiyin",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuruiyin/universal-memoize/issues"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0"
+  }
 }
